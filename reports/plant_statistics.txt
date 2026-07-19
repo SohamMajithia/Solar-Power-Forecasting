@@ -1,0 +1,80 @@
+============================================================
+PLANT COMPARATIVE STATISTICS
+============================================================
+
+--- Plant 1 ---
+Total Rows: 68778
+Unique Inverters: 22
+Mean AC Power: 307.80 kW (Max: 1410.95 kW)
+Mean DC Power: 314.74 kW (Max: 1447.11 kW)
+Mean Ambient Temp: 25.56°C (Range: 20.40°C to 35.25°C)
+Mean Module Temp: 31.25°C (Range: 18.14°C to 65.55°C)
+Mean Irradiation: 0.2323 (Max: 1.2217)
+Mean Daily Yield per Inverter: 7193.58 kWh (Max: 9163.00 kWh)
+
+--- Plant 2 ---
+Total Rows: 67698
+Unique Inverters: 22
+Mean AC Power: 241.28 kW (Max: 1385.42 kW)
+Mean DC Power: 246.70 kW (Max: 1420.93 kW)
+Mean Ambient Temp: 27.99°C (Range: 20.94°C to 39.18°C)
+Mean Module Temp: 32.61°C (Range: 20.27°C to 66.64°C)
+Mean Irradiation: 0.2292 (Max: 1.0988)
+Mean Daily Yield per Inverter: 6256.38 kWh (Max: 9873.00 kWh)
+
+============================================================
+INVERTER DETAILED YIELDS
+============================================================
+
+--- Plant 1 Inverter Rankings ---
+                      max_ac  mean_daily_yield  total_yield_diff
+SOURCE_KEY                                                      
+adLQvlD726eNBSB  1405.585714       7443.841912          253153.0
+1IF53ai7Xc0U56Y  1394.514286       7348.806373          249921.0
+VHMLBKoKgIrUVDU  1394.214286       7347.004902          249800.0
+McdE0feGgRqW7Ca  1405.800000       7341.778361          249623.0
+3PZuoBAID5Wc2HD  1399.225000       7341.279412          249666.0
+ZnxXDlPa8U1GXgE  1391.642857       7310.443102          248565.0
+uHbuxQJl8lW7ozc  1377.250000       7303.452381          248321.0
+iCRJl6heRkivqQ3  1407.542857       7301.991597          248271.0
+zVJPv84UY57bAof  1397.085714       7268.209559          247121.0
+pkci93gMrogZuBj  1379.625000       7244.851541          246328.0
+wCURE6d3bPkepu2  1410.950000       7235.289916          246003.0
+YxYtjZvoooNbGkE  1410.528571       7219.845588          245476.0
+rGa61gmuvPhdLxV  1392.842857       7217.676471          245404.0
+sjndEbLyjtCKgGv  1399.842857       7201.363445          244849.0
+WRmjgnKYAwPKWDb  1376.350000       7199.757353          244859.0
+zBIq5rxdHJRwDNY  1393.242857       7176.091387          243989.0
+7JYdWkrLSPkdwr4  1384.871429       7172.323529          243861.0
+ZoEaEvLYb1n2sOq  1395.485714       7166.025210          243654.0
+z9Y9gH1T5YWrNuG  1401.125000       7156.970588          243338.0
+ih0vzX44oOqAx2f  1377.314286       7086.453081          240945.0
+1BY6WEcLGh8j5v7  1300.171429       6639.865546          225760.0
+bvBOhCH3iADSZry  1265.157143       6535.470588          222206.0
+
+--- Plant 2 Inverter Rankings ---
+                      max_ac  mean_daily_yield  total_yield_diff
+SOURCE_KEY                                                      
+4UPUqMRk7TRMgml  1384.346667       7703.903782      2.653495e+06
+xMbIugepa2P7lBB  1373.653333       7493.028205      1.068964e+08
+IQ2d7wF4YD8zU1Q  1383.457143       7487.958608      2.018506e+07
+Mx2yZCDsyf6DPfv  1377.153333       7096.523109      2.683351e+06
+NgDl19wMapZy17u  1370.957143       6925.028571      1.117460e+08
+oZ35aAeoifZaQzV  1385.420000       6876.529412      1.660189e+09
+Qf4GUc1pJu5T6c6  1369.393333       6862.313725      8.386467e+08
+vOuJvMaM2sgwLmb  1294.300000       6839.470588      2.427691e+06
+mqwcsP2rE7J0TFp  1372.020000       6655.115385      5.938150e+08
+WcxssY2VbP4hApt  1363.513333       6561.398039      1.819119e+08
+PeE6FRyGXUgsRhN  1347.526667       6326.855042      1.348549e+09
+q49J1IKaHRwDQnt  1325.833333       6269.882353      5.207580e+05
+V94E5Ben1TlhnDV  1333.066667       6158.705882      1.412293e+09
+xoJJ8DcxJEcupym  1371.013333       6080.701961      2.093357e+08
+LlT2YUhhzqhg5Sw  1338.346667       6074.411765      2.827890e+08
+oZZkBaNadn6DNKz  1371.280000       6011.058824      1.708288e+09
+81aHJ1q11NBPMrL  1347.660000       5916.019608      1.215486e+09
+9kRcWv60rDACzjR  1361.666667       5835.535294      2.247916e+09
+rrq4fwE8jgrTyWY  1378.766667       5182.382353      1.211314e+08
+LYwnQax7tkwH5Cb  1265.666667       4850.168627      1.795116e+09
+Quc1TzYxW2pYoWX  1205.706667       4685.317647      3.296459e+08
+Et9kgGMDl729KT4  1172.653333       4579.882353      1.854162e+06
+
