@@ -50,46 +50,61 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
+html, body, [class*="css"] { font-family: 'Inter', sans-serif; color: #f2f2f7; }
 
-.stApp { background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); color: #f0f0f0; }
+.stApp { background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); color: #f2f2f7; }
 
 section[data-testid="stSidebar"] {
     background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
-    border-right: 1px solid rgba(255,255,255,0.08);
+    border-right: 1px solid rgba(255,255,255,0.12);
 }
 
 div[data-testid="metric-container"] {
-    background: rgba(255,255,255,0.06);
-    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
     border-radius: 12px;
     padding: 16px 20px;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
 }
 
 .card {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
     border-radius: 14px;
     padding: 22px 26px;
     margin-bottom: 16px;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(10px);
+    color: #f7f7ff;
+}
+
+.card, .anomaly-box, .normal-box {
+    color: #f7f7ff;
+}
+
+.card p,
+.card h2,
+.card h3,
+.card ul,
+.card li,
+.card a,
+.card span {
+    color: #f7f7ff !important;
 }
 
 .anomaly-box {
-    background: rgba(255, 80, 80, 0.15);
-    border: 1px solid rgba(255, 80, 80, 0.6);
+    background: rgba(255, 80, 80, 0.18);
+    border: 1px solid rgba(255, 80, 80, 0.75);
     border-radius: 12px;
     padding: 18px 22px;
-    color: #ff9090;
+    color: #ffe6e6;
 }
 
 .normal-box {
-    background: rgba(50, 220, 130, 0.12);
-    border: 1px solid rgba(50, 220, 130, 0.5);
+    background: rgba(50, 220, 130, 0.18);
+    border: 1px solid rgba(50, 220, 130, 0.75);
     border-radius: 12px;
     padding: 18px 22px;
-    color: #7fffbe;
+    color: #e9fff0;
 }
 
 h1, h2, h3 { color: #ffffff !important; }
@@ -176,7 +191,7 @@ with st.sidebar:
     st.caption(f"Plant ID: {'4135001' if plant == 'Plant 1' else '4136001'}")
     st.divider()
     st.caption("AHA Solar Technologies Pvt. Ltd.")
-    st.caption("Internship Project · 2024")
+    st.caption("Internship Project · 2026")
 
 
 # ──────────────────────────────────────────────────────────────────────────────
